@@ -1,0 +1,22 @@
+//
+//  CDpch.pch
+//  cloudDriving
+//
+//  Created by apple on 2019/6/2.
+//  Copyright © 2019 Harden. All rights reserved.
+//
+
+#ifndef CDpch_pch
+#define CDpch_pch
+
+#define SCREEN_WIDTH     [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT    [UIScreen mainScreen].bounds.size.height
+
+#import "SVProgressHUD.h"
+#import <BmobSDK/Bmob.h>
+#import "UILabel+TextAlign.h"
+#import "FMDB.h"
+#import "dataManager.h"
+
+
+#endif /* CDpch_pch */
